@@ -17,7 +17,7 @@ namespace AsunaPlugin
         private string _action;
         private Random _random;
 
-        public Action(AsunaPlugin asuna, string action, int[] moods, params string[][] reactions)
+        public Action(string action, int[] moods, params string[][] reactions)
         {
             _action = action;
             _random = new Random();

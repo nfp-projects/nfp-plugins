@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsunaPlugin", "AsunaPlugin\AsunaPlugin.csproj", "{4256090F-07FB-42ED-A7F3-D8FDDE8C153E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsunaPluginTester", "AsunaPluginTester\AsunaPluginTester.csproj", "{77A3CFEB-551C-4B59-AF17-C7F7BC46C2F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRCPlugin", "..\irc_bot\IRCPlugins\IRCPlugin.csproj", "{021B06EF-1C5F-4C81-B109-BC26F2C8FDC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{4256090F-07FB-42ED-A7F3-D8FDDE8C153E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4256090F-07FB-42ED-A7F3-D8FDDE8C153E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4256090F-07FB-42ED-A7F3-D8FDDE8C153E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A3CFEB-551C-4B59-AF17-C7F7BC46C2F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A3CFEB-551C-4B59-AF17-C7F7BC46C2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A3CFEB-551C-4B59-AF17-C7F7BC46C2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A3CFEB-551C-4B59-AF17-C7F7BC46C2F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021B06EF-1C5F-4C81-B109-BC26F2C8FDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021B06EF-1C5F-4C81-B109-BC26F2C8FDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021B06EF-1C5F-4C81-B109-BC26F2C8FDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021B06EF-1C5F-4C81-B109-BC26F2C8FDC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
