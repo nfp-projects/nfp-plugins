@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRCPlugin", "..\irc_bot\IRC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhipPlugin", "WhipPlugin\WhipPlugin.csproj", "{08E594EC-7CB1-48CD-B825-C87B4AAFE2B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JapaneseNumbers", "JapaneseNumbers\JapaneseNumbers.csproj", "{4A394BF0-28EF-4DD1-A69C-815FF9788031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JapaneseNumbersTest", "JapaneseNumbersTest\JapaneseNumbersTest.csproj", "{49A32DF5-449B-421F-B05F-45696A2EC69D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{08E594EC-7CB1-48CD-B825-C87B4AAFE2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08E594EC-7CB1-48CD-B825-C87B4AAFE2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08E594EC-7CB1-48CD-B825-C87B4AAFE2B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A394BF0-28EF-4DD1-A69C-815FF9788031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A394BF0-28EF-4DD1-A69C-815FF9788031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A394BF0-28EF-4DD1-A69C-815FF9788031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A394BF0-28EF-4DD1-A69C-815FF9788031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A32DF5-449B-421F-B05F-45696A2EC69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A32DF5-449B-421F-B05F-45696A2EC69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A32DF5-449B-421F-B05F-45696A2EC69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A32DF5-449B-421F-B05F-45696A2EC69D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
